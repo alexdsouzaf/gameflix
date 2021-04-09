@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOCADORA VERMELHA</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="estiloflix.css">
+
+	<!--arquivos owl-->
+	<link rel="stylesheet" type="text/css" href="owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="owl.theme.default.min.css">
+</head>
+<body>
+	<header>
+		<h1>GAMEFLIX</h1>
+		<ul class="opcoes_conteudo">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">JOGOS</a></li>
+			<li><a href="#">LANÇAMENTOS</a></li>
+		</ul>
+	</header>
+
+	<main>
+		<section>
+			<div class="destaque">
+				<h2>The Legend of Zelda</h2>
+				<h3>Zelda é a princesa , o anão é quem salva o mundo</h3>
+				<div>
+					<button role="button" class="botao">
+						<i class="fas fa-play"></i>
+						JOGAR AGORA
+					</button>
+					<a href="https://www.youtube.com/watch?v=zw47_q9wbBE">
+						<button role="button" class="botao">
+							<i class="fas fa-info-circle"></i>
+							MAIS INFORMAÇÕES
+						</button>
+					</a>
+				</div>		
+			</div>
+		</section>		
+	</main>
+
+	<div class="carrosel">
+		<div class="owl-carousel owl-theme">
+		    <div class="item"><a href="https://www.youtube.com/watch?v=gHzuHo80U2M"><img src="item1.jpg" class="box-jogo"></a></div>
+		    <div class="item"><a href="https://www.youtube.com/watch?v=FyIwEFXOcaE"><img src="item2.jpg" class="box-jogo"></a></div>
+		    <div class="item"><a href="https://www.youtube.com/watch?v=nFBrgeSjj-0"><img src="item3.jpg" class="box-jogo"></a></div>
+		    <div class="item"><a href="https://www.youtube.com/watch?v=kE7li_u1nmg"><img src="item4.jpg" class="box-jogo"></a></div>
+		    <div class="item"><a href="https://www.youtube.com/watch?v=hxfNb4d3bPY"><img src="item5.jpg" class="box-jogo"></a></div>
+		    <div class="item"><a href="https://www.youtube.com/watch?v=8yKCS8B6_SA"><img src="item6.jpg" class="box-jogo"></a></div>
+		    <div class="item"><a href="https://www.youtube.com/watch?v=GWK5ZTvPNqk"><img src="item7.jpg" class="box-jogo"></a></div>
+		</div>
+	</div>
+
+
+	<script src="https://kit.fontawesome.com/e3709d69f8.js" crossorigin="anonymous"></script>
+	<script src="jquery.min.js"></script>
+	<script src="owl.carousel.min.js"></script>
+	<script type="text/javascript">
+		$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    nav:true,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:3
+	        },
+	        1000:{
+	            items:5
+	        }
+	    }
+		})
+	</script>
+</body>
+</html>
+
+
